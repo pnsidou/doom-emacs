@@ -101,7 +101,7 @@ Can be negative.")
                      (if fuzzy 'flex 'helm)
                    (if fuzzy 'helm-flex 'helm)) t))
   :config
-  (set-popup-rule! "^\\*helm" :vslot -100 :size 0.22 :ttl nil)
+  (set-popup-rule! "^\\*helm" :vslot -100 :size 0.35 :ttl nil)
 
   ;; Hide the modeline in helm windows as it serves little purpose.
   (defun +helm--hide-mode-line (&rest _)
